@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9ED04DD1B70A9B700A0E0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04DC1B70A9B700A0E0D9 /* AppDelegate.swift */; };
+		C9ED04DF1B70A9B700A0E0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04DE1B70A9B700A0E0D9 /* ViewController.swift */; };
+		C9ED04E21B70A9B700A0E0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ED04E01B70A9B700A0E0D9 /* Main.storyboard */; };
+		C9ED04E41B70A9B700A0E0D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ED04E31B70A9B700A0E0D9 /* Images.xcassets */; };
+		C9ED04E71B70A9B700A0E0D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ED04E51B70A9B700A0E0D9 /* LaunchScreen.xib */; };
+		C9ED04F31B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04F21B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9ED04ED1B70A9B800A0E0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9ED04CF1B70A9B700A0E0D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9ED04D61B70A9B700A0E0D9;
+			remoteInfo = FTGradientLabelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9ED04D71B70A9B700A0E0D9 /* FTGradientLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTGradientLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ED04DB1B70A9B700A0E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ED04DC1B70A9B700A0E0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9ED04DE1B70A9B700A0E0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9ED04E11B70A9B700A0E0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9ED04E31B70A9B700A0E0D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9ED04E61B70A9B700A0E0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9ED04EC1B70A9B800A0E0D9 /* FTGradientLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTGradientLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9ED04F11B70A9B800A0E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ED04F21B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTGradientLabelDemoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9ED04D41B70A9B700A0E0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ED04E91B70A9B800A0E0D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9ED04CE1B70A9B700A0E0D9 = {
+			isa = PBXGroup;
+			children = (
+				C9ED04D91B70A9B700A0E0D9 /* FTGradientLabelDemo */,
+				C9ED04EF1B70A9B800A0E0D9 /* FTGradientLabelDemoTests */,
+				C9ED04D81B70A9B700A0E0D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9ED04D81B70A9B700A0E0D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED04D71B70A9B700A0E0D9 /* FTGradientLabelDemo.app */,
+				C9ED04EC1B70A9B800A0E0D9 /* FTGradientLabelDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9ED04D91B70A9B700A0E0D9 /* FTGradientLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED04DC1B70A9B700A0E0D9 /* AppDelegate.swift */,
+				C9ED04DE1B70A9B700A0E0D9 /* ViewController.swift */,
+				C9ED04E01B70A9B700A0E0D9 /* Main.storyboard */,
+				C9ED04E31B70A9B700A0E0D9 /* Images.xcassets */,
+				C9ED04E51B70A9B700A0E0D9 /* LaunchScreen.xib */,
+				C9ED04DA1B70A9B700A0E0D9 /* Supporting Files */,
+			);
+			path = FTGradientLabelDemo;
+			sourceTree = "<group>";
+		};
+		C9ED04DA1B70A9B700A0E0D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED04DB1B70A9B700A0E0D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9ED04EF1B70A9B800A0E0D9 /* FTGradientLabelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED04F21B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift */,
+				C9ED04F01B70A9B800A0E0D9 /* Supporting Files */,
+			);
+			path = FTGradientLabelDemoTests;
+			sourceTree = "<group>";
+		};
+		C9ED04F01B70A9B800A0E0D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED04F11B70A9B800A0E0D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9ED04D61B70A9B700A0E0D9 /* FTGradientLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ED04F61B70A9B800A0E0D9 /* Build configuration list for PBXNativeTarget "FTGradientLabelDemo" */;
+			buildPhases = (
+				C9ED04D31B70A9B700A0E0D9 /* Sources */,
+				C9ED04D41B70A9B700A0E0D9 /* Frameworks */,
+				C9ED04D51B70A9B700A0E0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTGradientLabelDemo;
+			productName = FTGradientLabelDemo;
+			productReference = C9ED04D71B70A9B700A0E0D9 /* FTGradientLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9ED04EB1B70A9B800A0E0D9 /* FTGradientLabelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9ED04F91B70A9B800A0E0D9 /* Build configuration list for PBXNativeTarget "FTGradientLabelDemoTests" */;
+			buildPhases = (
+				C9ED04E81B70A9B800A0E0D9 /* Sources */,
+				C9ED04E91B70A9B800A0E0D9 /* Frameworks */,
+				C9ED04EA1B70A9B800A0E0D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9ED04EE1B70A9B800A0E0D9 /* PBXTargetDependency */,
+			);
+			name = FTGradientLabelDemoTests;
+			productName = FTGradientLabelDemoTests;
+			productReference = C9ED04EC1B70A9B800A0E0D9 /* FTGradientLabelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9ED04CF1B70A9B700A0E0D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Fittime;
+				TargetAttributes = {
+					C9ED04D61B70A9B700A0E0D9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C9ED04EB1B70A9B800A0E0D9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C9ED04D61B70A9B700A0E0D9;
+					};
+				};
+			};
+			buildConfigurationList = C9ED04D21B70A9B700A0E0D9 /* Build configuration list for PBXProject "FTGradientLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9ED04CE1B70A9B700A0E0D9;
+			productRefGroup = C9ED04D81B70A9B700A0E0D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9ED04D61B70A9B700A0E0D9 /* FTGradientLabelDemo */,
+				C9ED04EB1B70A9B800A0E0D9 /* FTGradientLabelDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9ED04D51B70A9B700A0E0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ED04E21B70A9B700A0E0D9 /* Main.storyboard in Resources */,
+				C9ED04E71B70A9B700A0E0D9 /* LaunchScreen.xib in Resources */,
+				C9ED04E41B70A9B700A0E0D9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ED04EA1B70A9B800A0E0D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9ED04D31B70A9B700A0E0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ED04DF1B70A9B700A0E0D9 /* ViewController.swift in Sources */,
+				C9ED04DD1B70A9B700A0E0D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ED04E81B70A9B800A0E0D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ED04F31B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9ED04EE1B70A9B800A0E0D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9ED04D61B70A9B700A0E0D9 /* FTGradientLabelDemo */;
+			targetProxy = C9ED04ED1B70A9B800A0E0D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9ED04E01B70A9B700A0E0D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9ED04E11B70A9B700A0E0D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9ED04E51B70A9B700A0E0D9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9ED04E61B70A9B700A0E0D9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9ED04F41B70A9B800A0E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9ED04F51B70A9B800A0E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9ED04F71B70A9B800A0E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FTGradientLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9ED04F81B70A9B800A0E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FTGradientLabelDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9ED04FA1B70A9B800A0E0D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTGradientLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTGradientLabelDemo.app/FTGradientLabelDemo";
+			};
+			name = Debug;
+		};
+		C9ED04FB1B70A9B800A0E0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FTGradientLabelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FTGradientLabelDemo.app/FTGradientLabelDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9ED04D21B70A9B700A0E0D9 /* Build configuration list for PBXProject "FTGradientLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ED04F41B70A9B800A0E0D9 /* Debug */,
+				C9ED04F51B70A9B800A0E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9ED04F61B70A9B800A0E0D9 /* Build configuration list for PBXNativeTarget "FTGradientLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ED04F71B70A9B800A0E0D9 /* Debug */,
+				C9ED04F81B70A9B800A0E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9ED04F91B70A9B800A0E0D9 /* Build configuration list for PBXNativeTarget "FTGradientLabelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9ED04FA1B70A9B800A0E0D9 /* Debug */,
+				C9ED04FB1B70A9B800A0E0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9ED04CF1B70A9B700A0E0D9 /* Project object */;
+}
