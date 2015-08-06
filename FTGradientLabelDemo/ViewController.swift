@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+     @IBOutlet weak var rainbowLabel: FTGradientLabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,6 +22,10 @@ class ViewController: UIViewController {
         testlabel.center = view.center
         testlabel.gradientColors = [UIColor.redColor(),UIColor.yellowColor()]
         self.view.addSubview(testlabel)
+        
+        rainbowLabel.gradientStartPoint = CGPointMake(0, 0)
+        rainbowLabel.gradientEndPoint = CGPointMake(1, 1)
+        rainbowLabel.gradientColors = [UIColor.redColor(),UIColor.yellowColor(),UIColor.greenColor(),UIColor.cyanColor(),UIColor.blueColor(),UIColor.purpleColor()]
     }
 
     override func didReceiveMemoryWarning() {

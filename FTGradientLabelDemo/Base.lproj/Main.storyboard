@@ -15,9 +15,30 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Helloworld" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHg-sw-TZY" customClass="FTGradientLabel" customModule="FTGradientLabelDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="107" width="320" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZJG-cZ-4Mu"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="320" id="ctX-fk-Oo4"/>
+                                    <constraint firstAttribute="width" constant="320" id="xg9-ov-yl9"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="ynX-Bn-6bB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HHg-sw-TZY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="87" id="Sbn-9H-oZj"/>
+                            <constraint firstAttribute="centerX" secondItem="HHg-sw-TZY" secondAttribute="centerX" id="tw2-bd-K2D"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="rainbowLabel" destination="HHg-sw-TZY" id="y05-R3-R6j"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
