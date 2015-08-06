@@ -77,7 +77,7 @@ class FTGradientLabel: UILabel {
             var scalf = CGFloat(overSampling) as CGFloat
             //UIGraphicsBeginImageContextWithOptions(rect.size, false, scalf)
         }
-        UIGraphicsBeginImageContextWithOptions(rect.size, false, 1)
+        UIGraphicsBeginImageContextWithOptions(rect.size, false, UIScreen.mainScreen().scale)
         var context = UIGraphicsGetCurrentContext()
         
        
