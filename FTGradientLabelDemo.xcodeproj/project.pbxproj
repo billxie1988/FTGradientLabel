@@ -13,6 +13,7 @@
 		C9ED04E41B70A9B700A0E0D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ED04E31B70A9B700A0E0D9 /* Images.xcassets */; };
 		C9ED04E71B70A9B700A0E0D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9ED04E51B70A9B700A0E0D9 /* LaunchScreen.xib */; };
 		C9ED04F31B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04F21B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift */; };
+		C9ED04FD1B70AA4A00A0E0D9 /* FTGradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04FC1B70AA4A00A0E0D9 /* FTGradientLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C9ED04EC1B70A9B800A0E0D9 /* FTGradientLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTGradientLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ED04F11B70A9B800A0E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9ED04F21B70A9B800A0E0D9 /* FTGradientLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTGradientLabelDemoTests.swift; sourceTree = "<group>"; };
+		C9ED04FC1B70AA4A00A0E0D9 /* FTGradientLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FTGradientLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				C9ED04E31B70A9B700A0E0D9 /* Images.xcassets */,
 				C9ED04E51B70A9B700A0E0D9 /* LaunchScreen.xib */,
 				C9ED04DA1B70A9B700A0E0D9 /* Supporting Files */,
+				C9ED04FC1B70AA4A00A0E0D9 /* FTGradientLabel.swift */,
 			);
 			path = FTGradientLabelDemo;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ED04FD1B70AA4A00A0E0D9 /* FTGradientLabel.swift in Sources */,
 				C9ED04DF1B70A9B700A0E0D9 /* ViewController.swift in Sources */,
 				C9ED04DD1B70A9B700A0E0D9 /* AppDelegate.swift in Sources */,
 			);
