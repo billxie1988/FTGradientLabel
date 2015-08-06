@@ -21,9 +21,7 @@ If you like FTGradientLabel and use it, could you please:
 Basic usage
 ====================================
 ```objective-c
-import "FTGradientLabel.swift"
-
-@interface MyViewController : BCMagicTransitionViewController
+add "FTGradientLabel.swift" to your proj
 
 
 - (void)push
