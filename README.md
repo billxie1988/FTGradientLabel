@@ -24,7 +24,7 @@ Basic usage
 add "FTGradientLabel.swift" to your proj
 
 
-- (void)push
+- (void)viewDidLoad()
 {
     ... ...
        
