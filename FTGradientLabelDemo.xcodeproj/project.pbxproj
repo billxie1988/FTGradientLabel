@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C9E820CC1B731E4000AD965F /* Screen_Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = C9E820CB1B731E4000AD965F /* Screen_Shot.png */; };
+		C96DADD31B7B031B00AE6ABB /* Screen_Shot.png in Resources */ = {isa = PBXBuildFile; fileRef = C96DADD21B7B031B00AE6ABB /* Screen_Shot.png */; };
 		C9ED04DD1B70A9B700A0E0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04DC1B70A9B700A0E0D9 /* AppDelegate.swift */; };
 		C9ED04DF1B70A9B700A0E0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ED04DE1B70A9B700A0E0D9 /* ViewController.swift */; };
 		C9ED04E21B70A9B700A0E0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ED04E01B70A9B700A0E0D9 /* Main.storyboard */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9E820CB1B731E4000AD965F /* Screen_Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot.png; sourceTree = "<group>"; };
+		C96DADD21B7B031B00AE6ABB /* Screen_Shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen_Shot.png; sourceTree = "<group>"; };
 		C9ED04D71B70A9B700A0E0D9 /* FTGradientLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTGradientLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9ED04DB1B70A9B700A0E0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9ED04DC1B70A9B700A0E0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 				C9ED04E01B70A9B700A0E0D9 /* Main.storyboard */,
 				C9ED04E31B70A9B700A0E0D9 /* Images.xcassets */,
 				C9ED04E51B70A9B700A0E0D9 /* LaunchScreen.xib */,
-				C9E820CB1B731E4000AD965F /* Screen_Shot.png */,
+				C96DADD21B7B031B00AE6ABB /* Screen_Shot.png */,
 				C9ED04DA1B70A9B700A0E0D9 /* Supporting Files */,
 				C9ED04FC1B70AA4A00A0E0D9 /* FTGradientLabel.swift */,
 			);
@@ -200,8 +200,8 @@
 			files = (
 				C9ED04E21B70A9B700A0E0D9 /* Main.storyboard in Resources */,
 				C9ED04E71B70A9B700A0E0D9 /* LaunchScreen.xib in Resources */,
+				C96DADD31B7B031B00AE6ABB /* Screen_Shot.png in Resources */,
 				C9ED04E41B70A9B700A0E0D9 /* Images.xcassets in Resources */,
-				C9E820CC1B731E4000AD965F /* Screen_Shot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
