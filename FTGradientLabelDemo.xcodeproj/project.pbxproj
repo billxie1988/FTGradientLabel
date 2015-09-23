@@ -162,6 +162,8 @@
 		C9ED04CF1B70A9B700A0E0D9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Fittime;
 				TargetAttributes = {

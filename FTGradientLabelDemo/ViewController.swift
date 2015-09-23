@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        var testlabel = FTGradientLabel(frame: CGRectMake(0, 0, 200, 50))
+        let testlabel = FTGradientLabel(frame: CGRectMake(0, 0, 200, 50))
         testlabel.text = "Helloworld"
         testlabel.font = UIFont(name: "Helvetica", size: 41)
         testlabel.gradientStartPoint = CGPointMake(0, 1)

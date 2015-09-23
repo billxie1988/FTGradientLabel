@@ -53,7 +53,7 @@ class FTGradientLabel: UILabel {
         //setColors(colors)
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setDefaults()
     }
@@ -166,7 +166,7 @@ class FTGradientLabel: UILabel {
             CGContextSaveGState(context);
             let str:NSString = self.text!
             let baselineAdjust = 1.0
-            let attrsDictionary =  [NSFontAttributeName:font, NSBaselineOffsetAttributeName:baselineAdjust] as [NSObject : AnyObject]
+            let attrsDictionary =  [NSFontAttributeName:font, NSBaselineOffsetAttributeName:baselineAdjust] as [String : AnyObject]
             str.drawInRect(textRect, withAttributes: attrsDictionary)
             CGContextRestoreGState(context);
             
@@ -201,8 +201,9 @@ class FTGradientLabel: UILabel {
             }
             let str:NSString = self.text!
             let baselineAdjust = 1.0
-            let attrsDictionary =  [NSFontAttributeName:font, NSBaselineOffsetAttributeName:baselineAdjust] as [NSObject : AnyObject]
+            let attrsDictionary =  [NSFontAttributeName:font, NSBaselineOffsetAttributeName:baselineAdjust] as [String : AnyObject]
             str.drawInRect(textRect, withAttributes: attrsDictionary)
+            
             CGContextRestoreGState(context);
 
             CGContextRestoreGState(context);
@@ -213,7 +214,7 @@ class FTGradientLabel: UILabel {
             textColor.setFill()
             let str:NSString = self.text!
             let baselineAdjust = 1.0
-            let attrsDictionary =  [NSFontAttributeName:font, NSBaselineOffsetAttributeName:baselineAdjust] as [NSObject : AnyObject]
+            let attrsDictionary =  [NSFontAttributeName:font, NSBaselineOffsetAttributeName:baselineAdjust] as [String : AnyObject]
             str.drawInRect(textRect, withAttributes: attrsDictionary)
         }
         
@@ -260,12 +261,14 @@ class FTGradientLabel: UILabel {
                     (locations + i).memory = CGFloat(Float(i) / Float(gradientColors.count))
                 }
 
-                var gradient:CGGradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), colorcf, locations)
+                var gradient:CGGradient = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), colorcf, locations)!
                 var startPoint = CGPointMake(textRect.origin.x + gradientStartPoint.x * textRect.size.width,
                     textRect.origin.y + gradientStartPoint.y * textRect.size.height);
                 var endPoint = CGPointMake(textRect.origin.x + gradientEndPoint.x * textRect.size.width,
                     textRect.origin.y + gradientEndPoint.y * textRect.size.height)
-                let options = CGGradientDrawingOptions(kCGGradientDrawsBeforeStartLocation|kCGGradientDrawsAfterEndLocation)
+                let options = CGGradientDrawingOptions(arrayLiteral: CGGradientDrawingOptions.DrawsBeforeStartLocation, CGGradientDrawingOptions.DrawsAfterEndLocation
+                )
+
                 CGContextDrawLinearGradient(context, gradient, startPoint, endPoint, options)
                 locations.dealloc(n * sizeof(CGFloat))
             }
